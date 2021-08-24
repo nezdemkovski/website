@@ -8,13 +8,15 @@ const IndexPage: NextPage = () => (
     <Image
       className="photo"
       src="/images/photo.jpg"
-      unsized
+      width={120}
+      height={120}
+      layout="fixed"
       alt="Yuri Yakovlev"
     />
 
     <h1 className="h1">Yuri Yakovlev</h1>
-    <h2 className="h2">Senior Full Stack Javascript Developer</h2>
-    <p>
+    <h2 className="h2">JavaScript Developer</h2>
+    {/* <p>
       Live in Prague, work at&nbsp;
       <Link
         url="https://www.livescore.com"
@@ -22,9 +24,9 @@ const IndexPage: NextPage = () => (
         label="LiveScore"
         newWindow
       />
-    </p>
-    {/* <p>
-      Download My Résumé in{' '}
+    </p> */}
+    <p>
+      {/* Download My Résumé in{' '}
       <Link
         url="/cv/yakovlev-yuri.pdf"
         title="My Résumé in JSON response"
@@ -32,15 +34,15 @@ const IndexPage: NextPage = () => (
         newWindow
       />{' '}
       format
-      <br />
-      or find me on{' '}
+      <br /> */}
+      Find me on{' '}
       <Link
         url="https://cz.linkedin.com/in/yakovlevyuri"
         title="LinkedIn"
         label="LinkedIn"
         newWindow
       />
-    </p> */}
+    </p>
 
     <style jsx global>{`
       h1.h1 {
