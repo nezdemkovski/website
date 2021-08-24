@@ -23,7 +23,7 @@ const IndexPage: NextPage = () => (
         newWindow
       />
     </p>
-    <p>
+    {/* <p>
       Download My Résumé in{' '}
       <Link
         url="/cv/yakovlev-yuri.pdf"
@@ -40,7 +40,7 @@ const IndexPage: NextPage = () => (
         label="LinkedIn"
         newWindow
       />
-    </p>
+    </p> */}
 
     <style jsx global>{`
       h1.h1 {
